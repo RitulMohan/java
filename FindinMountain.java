@@ -10,7 +10,7 @@ public class FindinMountain {
         if(firsttry != -1){
             return firsttry;
         }
-        return orderagnosticBS(arr, target,peak+1, arr.length-1)
+        return orderagnosticBS(arr, target,peak+1, arr.length-1);
     }
 
     public int peakIndexInMountainArray(int[] arr){
